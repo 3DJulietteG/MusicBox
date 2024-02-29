@@ -28,5 +28,5 @@ Using Bifrost :
   
   -If there is a collision, loc Move = closest position on "path"
   
-    If not loc Move = rest pose
+    else loc Move = rest pose
 

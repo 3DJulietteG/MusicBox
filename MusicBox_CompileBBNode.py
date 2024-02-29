@@ -175,17 +175,3 @@ def uninitializePlugin(mobject):
     except:
         sys.stderr.write("Failed to register command: %s\n" % nodeName)
     
-
-
-'''
-import maya.cmds as cmds
-cmds.loadPlugin('D:\Desktop\Projets\scripts\CustomNodes\Mwahaha.py')
-cmds.createNode('CompileBBNode_MusicBox')
-
-// Error: TypeError: file D:/Desktop/Projets/scripts/CustomNodes/Mwahaha.py line 35: in method 'MDataHandle_child', argument 2 of type 'MObject const &'
-Additional information:
-Wrong number or type of arguments for overloaded function 'MDataHandle_child'.
-  Possible C/C++ prototypes are:
-    MDataHandle::child(MPlug const &)
-    MDataHandle::child(MObject const &) //
-'''

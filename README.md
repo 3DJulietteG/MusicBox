@@ -27,5 +27,5 @@ Using Bifrost :
   -Find the closest position on a given "path mesh" to the contact locators.
   
   -If there is a collision, loc Move = closest position on "path"
-  else loc Move = rest pose
+  // Else loc Move = rest pose
 
